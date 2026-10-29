@@ -1,24 +1,66 @@
-# AI-Based Tool Recommendation System
+# Smart Machining Assistant
 
-## Overview
+Smart Machining Assistant is an AI-based decision-support system for recommending suitable machining tools and process parameters based on material, hardness, machine capability, operation type, and surface requirements.
 
-This project recommends the most suitable machining tool using Machine Learning based on machining parameters.
+## Project status
 
-## Team Members
+This repository is now in a working prototype stage: the project structure is complete, the dataset is generated, the Streamlit app is running, and a trained recommendation model is saved in the `models/` folder.
 
-- Member 1
-- Member 2
-- Member 3
-- Member 4
+## Core stack
 
-## Technologies
-
-- Python
-- Pandas
-- Scikit-learn
+- Python 3.12
 - Streamlit
-- Git & GitHub
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Plotly
+- Pytest
+- Git and GitHub
 
-## Project Status
+## Planned folder structure
 
-Project Initialization
+- `app/` for the dashboard UI and styling
+- `dataset/` for source, processed, and documentation data
+- `docs/` for architecture, testing, and design records
+- `models/` for trained artifacts
+- `src/data/` for data generation and validation
+- `src/features/` for preprocessing and encoding
+- `src/training/` for training and evaluation logic
+- `src/prediction/` for recommendation logic
+- `src/utils/` for engineering constants and helper functions
+- `tests/` for unit and validation tests
+
+## Environment setup
+
+Create the local Python environment and install dependencies inside the repository:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install --upgrade pip
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+Run the Streamlit app from the project root:
+
+```powershell
+.\.venv\Scripts\streamlit.exe run app\app.py
+```
+
+## Stage progress
+
+- Stage 1: repository inspection complete
+- Stage 2: project scaffold and environment configuration complete
+- Stage 3: synthetic dataset generation complete
+- Stage 4: engineering-rule recommendation engine complete
+- Stage 5: Streamlit dashboard and model training pipeline complete
+
+## Training the model
+
+```powershell
+.\.venv\Scripts\python.exe -m src.training.train_model
+```
+
+## Notes
+
+This project remains modular so that each engineering task, model, and UI component can be tested independently before integration. The recommendation engine intentionally distinguishes between ML prediction, rule-based engineering logic, and demonstration-level synthetic data.
