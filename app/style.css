@@ -1,0 +1,31 @@
+/* Base industrial dashboard styling */
+
+:root {
+    --bg: #f3f6fb;
+    --panel: #ffffff;
+    --panel-alt: #edf3ff;
+    --primary: #123b72;
+    --secondary: #4a90e2;
+    --accent: #d9eaf7;
+    --text: #1a1f2b;
+    --muted: #5d6777;
+    --success: #2e7d32;
+    --warning: #d97706;
+    --danger: #b42318;
+    --border: #d8e1ee;
+}
+
+html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", sans-serif;
+}
+
+.stApp {
+    background: var(--bg);
+}
+
+.css-1d391kg, .block-container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

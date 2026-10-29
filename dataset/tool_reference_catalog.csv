@@ -1,0 +1,13 @@
+material_category,operation,speed_m_min,feed_mm_rev,doc_mm,tool_type,tool_material,source
+Steel,Turning,110,0.25,2.5,Indexable turning insert,Carbide insert,Prototype reference catalog
+Steel,Milling,120,0.22,2.2,End mill,Carbide end mill,Prototype reference catalog
+Steel,Drilling,35,0.18,2.0,Twist drill,Cobalt twist drill,Prototype reference catalog
+Stainless Steel,Turning,80,0.18,1.8,Indexable turning insert,Coated carbide,Prototype reference catalog
+Stainless Steel,Milling,90,0.16,1.5,End mill,Coated carbide end mill,Prototype reference catalog
+Stainless Steel,Drilling,22,0.12,1.4,Twist drill,Solid carbide drill,Prototype reference catalog
+Aluminium,Turning,260,0.35,3.5,Indexable turning insert,Polished carbide,Prototype reference catalog
+Aluminium,Milling,220,0.30,3.0,End mill,High-speed steel or carbide,Prototype reference catalog
+Aluminium,Drilling,110,0.24,2.4,Twist drill,HSS drill,Prototype reference catalog
+Titanium,Turning,55,0.12,1.2,Indexable turning insert,Ceramic or carbide,Prototype reference catalog
+Titanium,Milling,45,0.10,1.0,End mill,Carbide end mill,Prototype reference catalog
+Titanium,Drilling,18,0.08,0.9,Twist drill,Solid carbide,Prototype reference catalog

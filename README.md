@@ -44,7 +44,13 @@ python -m venv .venv
 Run the Streamlit app from the project root:
 
 ```powershell
-.\.venv\Scripts\streamlit.exe run app\app.py
+.\.venv\Scripts\python.exe -m streamlit run app\app.py
+```
+
+Or use the repository launcher:
+
+```powershell
+python .\run_app.py
 ```
 
 ## Stage progress
@@ -63,4 +69,4 @@ Run the Streamlit app from the project root:
 
 ## Notes
 
-This project remains modular so that each engineering task, model, and UI component can be tested independently before integration. The recommendation engine intentionally distinguishes between ML prediction, rule-based engineering logic, and demonstration-level synthetic data.
+This project remains modular so that each engineering task, model, and UI component can be tested independently before integration. The recommendation engine intentionally distinguishes between ML prediction, rule-based engineering logic, and demonstration-level synthetic data. Recommendation outputs also carry confidence and agreement indicators so the app can surface when the model and rule checks are aligned or when the result should be reviewed.
